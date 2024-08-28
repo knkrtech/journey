@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TAN Meringue';
-    src: url('/public/TANMeringue.ttf') format('truetype');
+    src: url('./public/TANMeringue.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
