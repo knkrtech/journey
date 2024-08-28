@@ -18,4 +18,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
           duration: 800,
           easing: 'easeOutExpo'
       });
+
+  // Simple placeholder function for invite code submission
+  document.querySelector('button').addEventListener('click', function() {
+      const inviteCode = document.querySelector('input[type="text"]').value;
+      if (inviteCode) {
+          alert('Invite code submitted: ' + inviteCode);
+      } else {
+          alert('Please enter an invite code.');
+      }
+  });
 });
